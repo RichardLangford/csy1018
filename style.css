@@ -1,8 +1,18 @@
-h1 {color: red;
+body {
+    background-image: url("https://pixabay.com/get/e832b4062df2073ed1584d05fb0938c9bd22ffd41db9104190f1c778ae/wood-1759566_1280.jpg");
+}
+
+
+
+
+h1 { text-align: center;
+  color: black;
   font-size: 60px;
   font-family: helvetica;
+  background-color: lightblue;
 
 }
+
 
 p{
   color: blue;
@@ -20,6 +30,7 @@ ul{ color: green;
 }
 
 img{
+  position:
   height: 325px;
   width: 250px;
   border-radius: 100%;
