@@ -1,3 +1,26 @@
-h1 {
-  color: Red;
+h1 {color: red;
+  font-size: 60px;
+  font-family: helvetica;
+
+}
+
+p{
+  color: blue;
+  font-size: 25px;
+  font-family: helvetica;
+
+}
+
+ol{
+  color: red;
+}
+
+ul{ color: green;
+
+}
+
+img{
+  height: 325px;
+  width: 250px;
+  border-radius: 100%;
 }
