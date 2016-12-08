@@ -1,37 +1,85 @@
-body {
-    background-image: url("https://pixabay.com/get/e832b4062df2073ed1584d05fb0938c9bd22ffd41db9104190f1c778ae/wood-1759566_1280.jpg");
+  body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fff;
+ }
+
+  #wrapper {
+    width: 100%;
+    margin:  auto;
+    background-color: red;
+
+  }
+
+  header {
+    background-color: blue;
+    height: 75px;
+    padding: 55px;
+  }
+
+  header h1 {
+  text-transform: uppercase;
+  text-align: center;
+  color: yellow;
+  line-height:20px;
+ }
+
+  header h2 {
+    font-variant: small-caps;
+    text-align: center;
+    color: orange
+  }
+
+  .main_menu {
+    padding: 5px 0 5px 0;
+    text-align: center;
+    line-height: 32px;
+    background-color: #1eb56e;
+  }
+
+  ul.main_menu {
+    position: fixed;
+   top: 0px;
+   width: 100%;
+    margin-top: 0px;
+     border: 3px solid #0c0c0c; /* outer navigation bar border.*/
+  }
+
+  .main_menu li {
+    float: left;
+    display: inline;
+    padding: 0 10px 0 10px;
+    font-size: 20px;
+    border-right: 2px solid #0c0c0c;
+  }
+
+   .main_menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px;
+    font-variant: small-caps;
+  }
+
+  .main_menu a:hover {
+    background-color: #0c0c0c;
+  }
+
+  .active {
+    background-color: #0c0c0c;
 }
-
-
-
-
-h1 { text-align: center;
-  color: black;
-  font-size: 60px;
-  font-family: helvetica;
-  background-color: lightblue;
-
-}
-
-
-p{
-  color: blue;
-  font-size: 25px;
-  font-family: helvetica;
-
-}
-
-ol{
-  color: red;
-}
-
-ul{ color: green;
-
-}
-
-img{
+  img {
   position:
   height: 325px;
   width: 250px;
   border-radius: 100%;
+}
+
+  h3 {
+    text-align: center;
+    text-decoration: underline;
+    color: purple;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #0c0c0c;
+
+
 }
