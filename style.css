@@ -1,119 +1,129 @@
-    body {
-  font-family: 'Raleway', sans-serif;
-  background-color: #6aaefc;
-  margin: auto;
- }
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #6aaefc;
+    margin: auto;
+}
 
-  .wrapper {
+.wrapper {
     width: 100%;
     padding-bottom: 10px;
     padding-left: 10px;
     padding right: 10px;
     padding-top: 54px;
+}
 
-  }
-
-  header {
+header {
     height: 75px;
     padding: 55px;
     border: 5px solid #0c0c0c;
-  }
+}
 
-  .footer {
-    position: absolute;
+p {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.footer {
+    position: fixed;
     right: 0;
     bottom: 0;
     left: 0;
-    padding: 1rem;
+    padding: 0.1em;
     background-color: #efefef;
     text-align: center;
-  }
+    text-transform: capitalize;
+    font-weight: bold;
+}
 
-  header h1 {
-  text-transform: uppercase;
-  text-align: center;
-  color: black;
-  line-height:20px;
- }
-
-  header h2 {
-    font-variant: small-caps;
+header h1 {
+    text-transform: uppercase;
     text-align: center;
     color: black;
-  }
+    line-height: 20px;
+}
 
-  .main_menu {
+header h2 {
+    font-variant: small-caps;
+    text-align: center;
+    color: white;
+}
+
+.main_menu {
     padding: 10px;
     text-align: center;
     line-height: 22px;
-    color:#fff;
+}
 
-  }
-
-  ul.main_menu {
+ul.main_menu {
     position: fixed;
-   top: 0px;
-   width: 100%;
+    top: 0px;
+    width: 100%;
     margin-top: 0px;
-     border: 3px solid #0c0c0c; /* outer navigation bar border.*/
-  }
+    border: 3px solid #0c0c0c;
+    background-color: #6aaefc;
+    /* outer navigation bar border.*/
+}
 
-  .main_menu li {
+.main_menu li {
     float: left;
     display: inline;
     padding: 0 10px 0 10px;
     font-size: 1.4em;
-    border-right: 2px solid #0c0c0c;
+    border-right: 2px solid #fff;
+}
 
-
-
-  }
-
-
-   .main_menu a {
+.main_menu a {
     text-decoration: none;
-    color: #0c0c0c;
+    color: white;
     padding: 9px;
     font-variant: small-caps;
-  }
+}
 
-  .main_menu a:hover {
+.main_menu a:hover {
     background-color: #0c0c0c;
-  }
+}
 
-  .active {
+.active {
     background-color: #0c0c0c;
-  }
+}
 
-  img {
-  height: 325px;
-  width: 250px;
-  border-radius: 100%;
-
-  }
-
-
-
-  h3 {
+div.burritoheading {
     text-align: center;
     text-decoration: underline;
-    color: purple;
+    color: white;
     width: 100%;
-    margin: 10px; auto;
+    margin: 10px;
+    auto;
     background-color: #0c0c0c;
+}
 
-
- }
 div.col {
     background-color: #6aaefc;
     color: white;
     margin: 20px 0 20px 0;
     padding: 20px;
-
+    padding-left: 10px;
+    border: 3px solid;
 }
-  .form {
+
+.col h2 {
+    text-decoration: underline;
+    padding-left: 20px;
+    color: black;
+}
+
+.form {
     padding: 0.5em;
-  }
+}
+
+.bottomofpage {
+    text-align: center;
+}
+
+.imageheading {
+    color: white;
+    text-align: center;
+}
 
 
 }
@@ -121,29 +131,74 @@ div.image2 {
     margin: 5px;
     border: 1px solid #black;
     width: 50px;
-
 }
-
-
-
 div.image2:hover {
     transition: 500ms;
     transform: scale(1.1);
 }
-
 div.image2 {
-  display: block;
-  display: inline-block;
-  width: 250px;
-  height: 30px;
-  float: left;
-  margin-left: 300px;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
 }
 div.image2 img {
-    width: 250px;
-    height: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }
-
-.form {
-margin-left: 500px;
+.image2 a {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+.downloadtext h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+.downloadtext p {
+    text-align: center;
+    font-weight: bold;
+}
+.download img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 65px;
+    height: 150px;
+    width: 150px;
+}
+.container1 {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container1 img {
+    height: 350px;
+    width: auto;
+}
+.container2 {
+    padding-bottom: 50px;
+}
+.emailform {
+    text-align: center;
+}
+.getintouch {
+    text-align: center;
+}
+.footer-social {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-social p {
+    font-weight: bold;
+}
+.footer-social li {
+    display: inline-block;
+    text-align: center;
 }
