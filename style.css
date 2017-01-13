@@ -3,12 +3,12 @@ body {
     background-color: #6aaefc;
     margin: auto;
 }
-
+/*---------Main Title bar of every page-------*/
 .wrapper {
     width: 100%;
     padding-bottom: 10px;
     padding-left: 10px;
-    padding right: 10px;
+    padding-right: 10px;
     padding-top: 54px;
 }
 
@@ -17,12 +17,12 @@ header {
     padding: 55px;
     border: 5px solid #0c0c0c;
 }
-
+/*-----paragraph allignment-----*/
 p {
     padding-left: 40px;
     padding-right: 40px;
 }
-
+/*----footer-----*/
 .footer {
     position: fixed;
     right: 0;
@@ -34,6 +34,7 @@ p {
     text-transform: capitalize;
     font-weight: bold;
 }
+/*---headings---*/
 
 header h1 {
     text-transform: uppercase;
@@ -47,7 +48,7 @@ header h2 {
     text-align: center;
     color: white;
 }
-
+/* ----Navbar----.*/
 .main_menu {
     padding: 10px;
     text-align: center;
@@ -61,7 +62,7 @@ ul.main_menu {
     margin-top: 0px;
     border: 3px solid #0c0c0c;
     background-color: #6aaefc;
-    /* outer navigation bar border.*/
+
 }
 
 .main_menu li {
@@ -78,7 +79,7 @@ ul.main_menu {
     padding: 9px;
     font-variant: small-caps;
 }
-
+/*----navbar hover---*/
 .main_menu a:hover {
     background-color: #0c0c0c;
 }
@@ -86,17 +87,16 @@ ul.main_menu {
 .active {
     background-color: #0c0c0c;
 }
-
+/*----burritoheading----.*/
 div.burritoheading {
     text-align: center;
     text-decoration: underline;
     color: white;
     width: 100%;
     margin: 10px;
-    auto;
     background-color: #0c0c0c;
 }
-
+/*----Cv text----*/
 div.col {
     background-color: #6aaefc;
     color: white;
@@ -111,7 +111,7 @@ div.col {
     padding-left: 20px;
     color: black;
 }
-
+/*------- Contact me form------*/
 .form {
     padding: 0.5em;
 }
@@ -119,23 +119,16 @@ div.col {
 .bottomofpage {
     text-align: center;
 }
-
+/* ------Index page heading--------*/
 .imageheading {
     color: white;
     text-align: center;
 }
-
-
-}
-div.image2 {
-    margin: 5px;
-    border: 1px solid #black;
-    width: 50px;
-}
+/*-----Index page image animation------*/
 div.image2:hover {
     transition: 500ms;
     transform: scale(1.1);
-}
+}/*-----Index page images-------*/
 div.image2 {
     display: -webkit-flex;
     display: flex;
@@ -152,6 +145,7 @@ div.image2 img {
     text-decoration: none;
     color: #f2f2f2;
 }
+/*----Cv text for downloading header-----*/
 .downloadtext h2 {
     text-align: center;
     text-decoration: underline;
@@ -160,6 +154,7 @@ div.image2 img {
     text-align: center;
     font-weight: bold;
 }
+/*----downloading image----*/
 .download img {
     display: block;
     margin-left: auto;
@@ -168,6 +163,7 @@ div.image2 img {
     height: 150px;
     width: 150px;
 }
+/*-----Biography text paragraphs -----*/
 .container1 {
     display: -webkit-flex;
     display: flex;
@@ -176,6 +172,7 @@ div.image2 img {
     margin-left: auto;
     margin-right: auto;
 }
+/* ---image of me on my bike----*/
 .container1 img {
     height: 350px;
     width: auto;
@@ -183,12 +180,14 @@ div.image2 img {
 .container2 {
     padding-bottom: 50px;
 }
+/*---- form text alignment----*/
 .emailform {
     text-align: center;
 }
 .getintouch {
     text-align: center;
 }
+/*----Social links-----*/
 .footer-social {
     display: -webkit-flex;
     display: flex;
